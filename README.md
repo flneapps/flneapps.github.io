@@ -1,1 +1,1 @@
-Fake web site against poor security policy of South Korean govenment
+Fake web site against poor security policy of South Korean government
