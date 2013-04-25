@@ -1,0 +1,93 @@
+www.flneapps.co.kr DNS 조회 결과
+------------------------------------------------------------------------
+LG U+ (164.124.107.9): 
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @164.124.107.9 +nocomments
+;; global options: +cmd
+;www.flneapps.co.kr.		IN	A
+www.flneapps.co.kr.	13050	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	2435	IN	A	204.232.175.78
+github.io.		59096	IN	NS	ns2.p16.dynect.net.
+github.io.		59096	IN	NS	ns3.p16.dynect.net.
+github.io.		59096	IN	NS	ns4.p16.dynect.net.
+github.io.		59096	IN	NS	ns1.p16.dynect.net.
+ns1.p16.dynect.net.	73871	IN	A	208.78.70.16
+ns2.p16.dynect.net.	73871	IN	A	204.13.250.16
+ns3.p16.dynect.net.	73871	IN	A	208.78.71.16
+ns4.p16.dynect.net.	73871	IN	A	204.13.251.16
+;; Query time: 6 msec
+;; SERVER: 164.124.107.9#53(164.124.107.9)
+;; WHEN: Thu Apr 25 22:59:56 2013
+;; MSG SIZE  rcvd: 234
+
+------------------------------------------------------------------------
+KT olleh (168.126.63.1): 
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @168.126.63.1 +nocomments
+;; global options: +cmd
+;www.flneapps.co.kr.		IN	A
+www.flneapps.co.kr.	8115	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	1192	IN	A	204.232.175.78
+github.io.		36675	IN	NS	ns1.p16.dynect.net.
+github.io.		36675	IN	NS	ns2.p16.dynect.net.
+github.io.		36675	IN	NS	ns3.p16.dynect.net.
+github.io.		36675	IN	NS	ns4.p16.dynect.net.
+ns1.p16.dynect.net.	144946	IN	A	208.78.70.16
+ns2.p16.dynect.net.	85383	IN	A	204.13.250.16
+ns3.p16.dynect.net.	144946	IN	A	208.78.71.16
+ns4.p16.dynect.net.	63465	IN	A	204.13.251.16
+;; Query time: 3 msec
+;; SERVER: 168.126.63.1#53(168.126.63.1)
+;; WHEN: Thu Apr 25 22:59:56 2013
+;; MSG SIZE  rcvd: 234
+
+------------------------------------------------------------------------
+SK Broadband (210.220.163.82): 
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @210.220.163.82 +nocomments
+;; global options: +cmd
+;www.flneapps.co.kr.		IN	A
+www.flneapps.co.kr.	7234	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	307	IN	A	204.232.175.78
+;; Query time: 5 msec
+;; SERVER: 210.220.163.82#53(210.220.163.82)
+;; WHEN: Thu Apr 25 22:59:56 2013
+;; MSG SIZE  rcvd: 84
+
+------------------------------------------------------------------------
+Google Public (8.8.8.8): 
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @8.8.8.8 +nocomments
+;; global options: +cmd
+;www.flneapps.co.kr.		IN	A
+www.flneapps.co.kr.	12206	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	1406	IN	A	204.232.175.78
+;; Query time: 70 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Thu Apr 25 22:59:56 2013
+;; MSG SIZE  rcvd: 84
+
+------------------------------------------------------------------------
+LG Dacom Corporation (164.124.101.2): 
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @164.124.101.2 +nocomments
+;; global options: +cmd
+;www.flneapps.co.kr.		IN	A
+.			86400	IN	SOA	. dns.bora.net. 2009050601 7200 3600 604800 86400
+;; Query time: 8 msec
+;; SERVER: 164.124.101.2#53(164.124.101.2)
+;; WHEN: Thu Apr 25 22:59:56 2013
+;; MSG SIZE  rcvd: 82
+
+------------------------------------------------------------------------
+SK Telecom (211.234.229.23): 
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @211.234.229.23 +nocomments
+;; global options: +cmd
+;www.flneapps.co.kr.		IN	A
+www.flneapps.co.kr.	86400	IN	A	127.0.0.1
+;; Query time: 9 msec
+;; SERVER: 211.234.229.23#53(211.234.229.23)
+;; WHEN: Thu Apr 25 22:59:56 2013
+;; MSG SIZE  rcvd: 52
+
