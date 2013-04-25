@@ -13,7 +13,7 @@ resolvers = {
     'LG U+' : '164.124.107.9'
   }
 
-print "www.flneapps.co.kr DNS 조회 결과"
+print "www.flneapps.co.kr DNS 조회 결과 (127.0.0.1이면 임의로 변조된 것)"
 
 for name, addr in resolvers.iteritems():
   print "-" * 72
