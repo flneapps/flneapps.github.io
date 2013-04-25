@@ -6,7 +6,8 @@ import commands
 
 resolvers = {
     'Google Public': '8.8.8.8',
-    'KT olleh': '168.126.63.1',
+    'KT Olleh': '168.126.63.1',
+    'KT Olleh Mobile': '211.246.100.20',
     'SK Broadband': '210.220.163.82',
     'SK Telecom': '211.234.229.23',
     'LG Dacom Corporation' : '164.124.101.2',
