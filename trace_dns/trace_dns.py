@@ -19,4 +19,4 @@ print "www.flneapps.co.kr DNS 조회 결과 (127.0.0.1이면 임의로 변조된
 for name, addr in resolvers.iteritems():
   print "-" * 72
   print "%s (%s): " % (name, addr)
-  print commands.getoutput("dig www.flneapps.co.kr @%s +nocomments" % addr)
+  print commands.getoutput("dig www.flneapps.co.kr @%s" % addr)
