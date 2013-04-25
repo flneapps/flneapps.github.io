@@ -14,9 +14,36 @@ resolvers = {
     'LG U+' : '164.124.107.9'
   }
 
-print "www.flneapps.co.kr DNS 조회 결과 (127.0.0.1이면 임의로 변조된 것)"
+sep = "\n%s\n" % ("-" * 72)
+
+summaries = []
+raws = []
+
+def try_until_answer(addr):
+  left = 5
+  while left > 0:
+    left -= 1
+    res = commands.getoutput("dig www.flneapps.co.kr @%s" % addr)
+    if res.find("ANSWER SECTION") != -1:
+      return res
+
+  return res
 
 for name, addr in resolvers.iteritems():
-  print "-" * 72
-  print "%s (%s): " % (name, addr)
-  print commands.getoutput("dig www.flneapps.co.kr @%s" % addr)
+  res = try_until_answer(addr)
+
+  summary = "%s (%s): " % (name, addr)
+  if res.find("127.0.0.1") != -1:
+    summary += "BLOCKED!"
+  else:
+    summary += "OK"
+
+  summaries.append(summary)
+  raws.append(summary + "\n" + res)
+
+
+print "www.flneapps.co.kr 차단 여부 조회 결과"
+print "\n[요약]\n"
+print "\n".join(summaries)
+print "\n\n[전체 로그]\n"
+print sep.join(raws)
