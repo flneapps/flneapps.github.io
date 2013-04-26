@@ -2,6 +2,7 @@
 #-*- coding: utf-8 -*-
 
 import commands
+from time import strftime
 
 
 resolvers = {
@@ -42,8 +43,16 @@ for name, addr in resolvers.iteritems():
   raws.append(summary + "\n" + res)
 
 
-print "www.flneapps.co.kr 차단 여부 조회 결과"
-print "\n[요약]\n"
-print "\n".join(summaries)
-print "\n\n[전체 로그]\n"
-print sep.join(raws)
+filename = "result_%s.txt" % strftime('%y%m%d_%H%M%S')
+
+f = open(filename, 'w')
+f.write('\n'.join(
+  ["www.flneapps.co.kr 차단 여부 조회 결과",
+   "\n[요약]\n",
+   "\n".join(summaries),
+   "\n\n[전체 로그]\n",
+   sep.join(raws)]
+  ))
+f.close()
+
+print "Done, the result is saved in %s." % filename
