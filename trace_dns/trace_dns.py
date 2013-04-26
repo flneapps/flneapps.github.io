@@ -43,7 +43,7 @@ for name, addr in resolvers.iteritems():
   raws.append(summary + "\n" + res)
 
 
-filename = "result_%s.txt" % strftime('%y%m%d_%H%M%S')
+filename = "result_%s.txt" % strftime('%y%m%d_%H%M')
 
 f = open(filename, 'w')
 f.write('\n'.join(
