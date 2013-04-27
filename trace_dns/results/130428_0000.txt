@@ -1,0 +1,220 @@
+www.flneapps.co.kr 차단 여부 조회 결과
+
+[요약]
+
+LG U+ (164.124.107.9): OK
+KT Olleh (168.126.63.1): OK
+SK Broadband (210.220.163.82): OK
+Google Public (8.8.8.8): OK
+KT Olleh Mobile (211.246.100.20): OK
+LG Dacom Corporation (164.124.101.2): OK
+SK Telecom (211.234.229.23): OK
+
+
+[전체 로그]
+
+LG U+ (164.124.107.9): OK
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @164.124.107.9
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 22067
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 4
+
+;; QUESTION SECTION:
+;www.flneapps.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.flneapps.co.kr.	895	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	3595	IN	A	204.232.175.78
+
+;; AUTHORITY SECTION:
+github.io.		57606	IN	NS	ns1.p16.dynect.net.
+github.io.		57606	IN	NS	ns2.p16.dynect.net.
+github.io.		57606	IN	NS	ns3.p16.dynect.net.
+github.io.		57606	IN	NS	ns4.p16.dynect.net.
+
+;; ADDITIONAL SECTION:
+ns1.p16.dynect.net.	70731	IN	A	208.78.70.16
+ns2.p16.dynect.net.	70731	IN	A	204.13.250.16
+ns3.p16.dynect.net.	70731	IN	A	208.78.71.16
+ns4.p16.dynect.net.	70731	IN	A	204.13.251.16
+
+;; Query time: 8 msec
+;; SERVER: 164.124.107.9#53(164.124.107.9)
+;; WHEN: Sun Apr 28 00:00:01 2013
+;; MSG SIZE  rcvd: 234
+
+------------------------------------------------------------------------
+KT Olleh (168.126.63.1): OK
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @168.126.63.1
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23640
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 4
+
+;; QUESTION SECTION:
+;www.flneapps.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.flneapps.co.kr.	12547	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	1747	IN	A	204.232.175.78
+
+;; AUTHORITY SECTION:
+github.io.		33813	IN	NS	ns4.p16.dynect.net.
+github.io.		33813	IN	NS	ns2.p16.dynect.net.
+github.io.		33813	IN	NS	ns1.p16.dynect.net.
+github.io.		33813	IN	NS	ns3.p16.dynect.net.
+
+;; ADDITIONAL SECTION:
+ns1.p16.dynect.net.	40943	IN	A	208.78.70.16
+ns2.p16.dynect.net.	40943	IN	A	204.13.250.16
+ns3.p16.dynect.net.	45557	IN	A	208.78.71.16
+ns4.p16.dynect.net.	36518	IN	A	204.13.251.16
+
+;; Query time: 5 msec
+;; SERVER: 168.126.63.1#53(168.126.63.1)
+;; WHEN: Sun Apr 28 00:00:01 2013
+;; MSG SIZE  rcvd: 234
+
+------------------------------------------------------------------------
+SK Broadband (210.220.163.82): OK
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @210.220.163.82
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 50447
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.flneapps.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.flneapps.co.kr.	12429	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	1629	IN	A	204.232.175.78
+
+;; Query time: 7 msec
+;; SERVER: 210.220.163.82#53(210.220.163.82)
+;; WHEN: Sun Apr 28 00:00:01 2013
+;; MSG SIZE  rcvd: 84
+
+------------------------------------------------------------------------
+Google Public (8.8.8.8): OK
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @8.8.8.8
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 61410
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; QUESTION SECTION:
+;www.flneapps.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.flneapps.co.kr.	0	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	2760	IN	A	204.232.175.78
+
+;; Query time: 110 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8)
+;; WHEN: Sun Apr 28 00:00:01 2013
+;; MSG SIZE  rcvd: 84
+
+------------------------------------------------------------------------
+KT Olleh Mobile (211.246.100.20): OK
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @211.246.100.20
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62004
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 4
+
+;; QUESTION SECTION:
+;www.flneapps.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.flneapps.co.kr.	14400	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	2769	IN	A	204.232.175.78
+
+;; AUTHORITY SECTION:
+github.io.		33937	IN	NS	ns3.p16.dynect.net.
+github.io.		33937	IN	NS	ns2.p16.dynect.net.
+github.io.		33937	IN	NS	ns4.p16.dynect.net.
+github.io.		33937	IN	NS	ns1.p16.dynect.net.
+
+;; ADDITIONAL SECTION:
+ns1.p16.dynect.net.	9555	IN	A	208.78.70.16
+ns2.p16.dynect.net.	9555	IN	A	204.13.250.16
+ns3.p16.dynect.net.	9555	IN	A	208.78.71.16
+ns4.p16.dynect.net.	9555	IN	A	204.13.251.16
+
+;; Query time: 8 msec
+;; SERVER: 211.246.100.20#53(211.246.100.20)
+;; WHEN: Sun Apr 28 00:00:01 2013
+;; MSG SIZE  rcvd: 234
+
+------------------------------------------------------------------------
+LG Dacom Corporation (164.124.101.2): OK
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @164.124.101.2
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 43788
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 4
+
+;; QUESTION SECTION:
+;www.flneapps.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.flneapps.co.kr.	14400	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	3600	IN	A	204.232.175.78
+
+;; AUTHORITY SECTION:
+github.io.		68796	IN	NS	ns1.p16.dynect.net.
+github.io.		68796	IN	NS	ns2.p16.dynect.net.
+github.io.		68796	IN	NS	ns3.p16.dynect.net.
+github.io.		68796	IN	NS	ns4.p16.dynect.net.
+
+;; ADDITIONAL SECTION:
+ns1.p16.dynect.net.	65047	IN	A	208.78.70.16
+ns2.p16.dynect.net.	65047	IN	A	204.13.250.16
+ns3.p16.dynect.net.	46460	IN	A	208.78.71.16
+ns4.p16.dynect.net.	63479	IN	A	204.13.251.16
+
+;; Query time: 52 msec
+;; SERVER: 164.124.101.2#53(164.124.101.2)
+;; WHEN: Sun Apr 28 00:00:01 2013
+;; MSG SIZE  rcvd: 234
+
+------------------------------------------------------------------------
+SK Telecom (211.234.229.23): OK
+
+; <<>> DiG 9.8.1-P1 <<>> www.flneapps.co.kr @211.234.229.23
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2097
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 4, ADDITIONAL: 4
+
+;; QUESTION SECTION:
+;www.flneapps.co.kr.		IN	A
+
+;; ANSWER SECTION:
+www.flneapps.co.kr.	14400	IN	CNAME	flneapps.github.io.
+flneapps.github.io.	3600	IN	A	204.232.175.78
+
+;; AUTHORITY SECTION:
+github.io.		37484	IN	NS	ns3.p16.dynect.net.
+github.io.		37484	IN	NS	ns1.p16.dynect.net.
+github.io.		37484	IN	NS	ns2.p16.dynect.net.
+github.io.		37484	IN	NS	ns4.p16.dynect.net.
+
+;; ADDITIONAL SECTION:
+ns1.p16.dynect.net.	82275	IN	A	208.78.70.16
+ns2.p16.dynect.net.	82275	IN	A	204.13.250.16
+ns3.p16.dynect.net.	82275	IN	A	208.78.71.16
+ns4.p16.dynect.net.	82275	IN	A	204.13.251.16
+
+;; Query time: 65 msec
+;; SERVER: 211.234.229.23#53(211.234.229.23)
+;; WHEN: Sun Apr 28 00:00:01 2013
+;; MSG SIZE  rcvd: 234
