@@ -16,6 +16,10 @@ function fnshow(){
   $("#guide").hide();
   $("#downPage").show();
 }
+
+if (navigator.appVersion.indexOf("Win")==-1) {
+  alert("키보드보안 프로그램은 Windows OS환경에서 사용 가능합니다.");
+}
 </script>
 
 </head>
